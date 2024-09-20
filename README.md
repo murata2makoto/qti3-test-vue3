@@ -28,36 +28,36 @@ QTI 3 Test Componentの備えているAPI、インターフェース、機能は
 
 
 
-## Getting Started
+## 始めよう
 
-### 1. Clone the repo
+### 1. リポジトリをクローンする
 ```sh
 git clone https://github.com/amp-up-io/qti3-test-vue3.git
 ```
 
-### 2. Install Node.js >= 20
+### 2. Node.js >= 20をインストールする
 QTI 3 Test Component for Vue 3 has been built and tested with Node v20.14.0.
 
-### 3. Installation
+### 3. インストール
 QTI 3 Test Component for Vue 3 includes a dependency on Vue 3, and a dependency on Vite for bundling.
 
 ```sh
 npm install
 ```
 
-### 4. Compiles and hot-reloads for development
+### 4. 開発用にコンパイルしてホットロードする
 ```sh
 npm run dev
 ```
 
-### 5. Compiles, minifies, creates package
+### 5. コンパイル、minify、パッケージ作成
 ```sh
 npm run build
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Usage
+## 使用方法
 
 ### 1. Install QTI 3 Test Component into your project
 
