@@ -9,24 +9,22 @@
 </a>
 
 
+QTI 3 Test ComponentはVue 3のJavaScriptコンポーネントで、1EdTech QTI 3 Assessment Test仕様のベストプラクティスと動作をカプセル化した情報モデルと実行時実行モデル（結果処理用）を提供することを目的としています。
 
-The QTI 3 Test Component is a Vue 3 JavaScript component that aims to provide an information model, and a runtime execution model (for Outcome Processing), that encapsulates the best practices and behaviors of the 1EdTech QTI 3 Assessment **Test** specification.
+クライアント アプリケーションは、QTI 3 Test XML を QTI 3 Test Component に任せることができます。QTI 3 Test Component は QTI 3 Assessment Test XML を解析し、さまざまなメソッドやプロパティを持つ情報モデルをクライアントに提供します。QTI 3 Test Component には、結果処理（提出モードが"individual"（個別）または"simultaneous"（同時）の場合など）を実行する際に使用できる、項目状態を操作するためのメソッドもあります。
 
-A client application can inject QTI 3 Test XML into QTI 3 Test Component, which parses the QTI 3 Assessment Test XML, thus providing an information model with various methods and properties for inspection back to the client.  QTI 3 Test Component also has methods for injecting item states which can then be used when running Outcome Processing (such as when submission mode is "individual" or "simultaneous").
-
-See the 1EdTech QTI 3 Information Model documentation for more information about the QTI 3 Assessment Test information model and runtime lifecycle.
+QTI 3 Assessment Test情報モデルとランタイムライフサイクルの詳細については、1EdTech QTI 3情報モデルのドキュメントを参照してください。
 
 [IMS Question and Test Interoperability (QTI): Assessment, Section and Item Information Model Version 3.0](https://www.imsglobal.org/sites/default/files/spec/qti/v3/info/index.html)
 
-QTI 3 Test Component is a sub-component of a QTI 3 Test Player Delivery system that has achieved both <a href="https://site.imsglobal.org/certifications/amp-upio/amp-upio-qti-3-test-player" target="_blank">QTI 3 Basic (Level 1) and QTI 3 Advanced (Level 2) "Delivery" Conformance</a> Certification from 1EdTech.
+QTI 3 テストコンポーネントは、1EdTech による<a href="https://site.imsglobal.org/certifications/amp-upio/amp-upio-qti-3-test-player" target="_blank">QTI 3 Basic（レベル 1）および QTI 3 Advanced（レベル 2）の「配信」適合</a>認定を達成した、QTI 3 テストプレーヤー配信システムのサブコンポーネントです。
 
 
+## このプロジェクトについて
 
-## About The Project
+QTI 3 Test Componentの備えているAPI、インターフェース、機能は、ウェブコンポーネントから扱いやすいTI 3 Assessment Test仕様の多くをカプセル化します。プロジェクトにコンポーネントをインストールし、QTI 3 Assessment Test XMLを渡してあとは任せるだけです！
 
-The QTI 3 Test Component has API's, interfaces, and capabilities which encapsulate much of the web component-friendly QTI 3 Assessment Test specification.  Just install the component in your project, inject QTI 3 Assessment Test XML and go!  
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">先頭に戻る</a>)</p>
 
 
 
